@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Pendaftaran XL Prioritas & XL Home WiFi Balikpapan</title>
+    
+
+    <meta name="google-site-verification" content="oX3-JCYRWoHsIXTaZQE6WWeVlFp7P6rb-YRCG6hkMU4" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sales resmi pendaftaran XL Smart Prioritas dan pemasangan internet WiFi XL Home area Balikpapan. Proses cepat, daftar dari rumah, pemasangan gratis.">
+    <meta name="keywords" content="xl home balikpapan, xl prioritas balikpapan, pasang wifi xl balikpapan, sales xl balikpapan, promo xl home, internet murah balikpapan, xl 5g balikpapan">
+    <meta name="author" content="Mitra Resmi XL Balikpapan">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Untuk Tampilan Bagus Saat Share Link di WhatsApp/Facebook) -->
+    <meta property="og:title" content="Promo XL Prioritas & XL Home WiFi Balikpapan">
+    <meta property="og:description" content="Daftar XL Prioritas & Pasang WiFi XL Home khusus area Balikpapan sekarang lebih mudah. Proses cepat & dibantu sampai aktif!">
+    <meta property="og:type" content="website">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        .text-xl-blue { color: #001b63; }
+        .bg-xl-blue { background-color: #001b63; }
+        .border-xl-blue { border-color: #001b63; }
+        .hover\:text-xl-blue:hover { color: #001b63; }
+        .hover\:bg-xl-blue:hover { background-color: #001b63; }
+        
+        .text-xl-yellow { color: #ffcc00; }
+        .bg-xl-yellow { background-color: #ffcc00; }
+        .border-xl-yellow { border-color: #ffcc00; }
+        .hover\:text-xl-yellow:hover { color: #ffcc00; }
+        .hover\:bg-xl-yellow:hover { background-color: #ffcc00; }
+        
+        .text-xl-light-blue { color: #005baa; }
+        .bg-xl-light-blue { background-color: #005baa; }
+        .border-xl-light-blue { border-color: #005baa; }
+        .hover\:border-xl-light-blue:hover { border-color: #005baa; }
+        .hover\:bg-xl-light-blue:hover { background-color: #005baa; }
+        .hover\:text-xl-light-blue:hover { color: #005baa; }
+        
+        .group:hover .group-hover\:bg-xl-light-blue { background-color: #005baa; }
+        .group:hover .group-hover\:text-xl-light-blue { color: #005baa; }
+        
+        .focus\:ring-xl-light-blue:focus { box-shadow: 0 0 0 2px #005baa; border-color: #005baa; outline: none; }
+        .focus\:border-xl-light-blue:focus { border-color: #005baa; }
+
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Custom scrollbar for better look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #001b63; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #005baa; 
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #001b63 0%, #005baa 100%);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <!-- Simple CSS Logo replacement for actual XL logo -->
+                    <div class="w-10 h-10 bg-xl-blue rounded-lg flex items-center justify-center font-bold text-xl-yellow text-xl">
+                        XL
+                    </div>
+                    <span class="font-bold text-xl-blue text-xl hidden sm:block">Mitra Resmi</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#prioritas" class="text-gray-600 hover:text-xl-blue font-medium transition-colors">XL Prioritas</a>
+                    <a href="#xlhome" class="text-gray-600 hover:text-xl-blue font-medium transition-colors">XL Home</a>
+                    <a href="#keunggulan" class="text-gray-600 hover:text-xl-blue font-medium transition-colors">Keunggulan</a>
+                    <a href="#kontak" class="bg-xl-yellow text-xl-blue px-6 py-2 rounded-full font-bold hover:bg-yellow-400 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Daftar Sekarang</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-xl-blue focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#prioritas" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-xl-blue hover:bg-gray-50">XL Prioritas</a>
+                <a href="#xlhome" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-xl-blue hover:bg-gray-50">XL Home WiFi</a>
+                <a href="#keunggulan" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-xl-blue hover:bg-gray-50">Keunggulan</a>
+                <a href="#kontak" class="mobile-link block px-3 py-2 mt-4 text-center rounded-md text-base font-bold bg-xl-yellow text-xl-blue">Daftar Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden relative">
+        <!-- Decorative elements -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-xl-light-blue opacity-20 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-xl-yellow opacity-10 blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                <span class="inline-block py-1 px-3 rounded-full bg-white/10 text-xl-yellow font-semibold text-sm mb-4 border border-white/20">
+                    Promo Terbatas 2026
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6">
+                    Internet Cepat & Stabil <br class="hidden sm:block" />
+                    <span class="text-xl-yellow">Tanpa Batas!</span>
+                </h1>
+                <p class="text-xl text-gray-200 mb-10 font-light leading-relaxed">
+                    Dapatkan kemudahan registrasi XL Prioritas & Pemasangan XL Home WiFi langsung dari rumah Anda. Proses cepat, mudah, dan banyak bonusnya.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#prioritas" class="bg-white text-xl-blue px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+                        <i class="fas fa-sim-card"></i> Info XL Prioritas
+                    </a>
+                    <a href="#xlhome" class="bg-transparent border-2 border-xl-yellow text-xl-yellow px-8 py-4 rounded-full font-bold text-lg hover:bg-xl-yellow hover:text-xl-blue transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+                        <i class="fas fa-wifi"></i> Info XL Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- XL Prioritas Section -->
+    <section id="prioritas" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-xl-blue mb-4">Pilihan Paket <span class="text-xl-yellow">XL Prioritas</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">Pilih paket pascabayar yang sesuai dengan gaya hidup digital Anda. Nikmati kuota utama besar dan nelpon puas.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <!-- Package 1 -->
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transform hover:-translate-y-2 transition-all duration-300 relative group">
+                    <div class="h-2 w-full bg-gray-300 absolute top-0 group-hover:bg-xl-light-blue transition-colors"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Paket Prio 80K</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-3xl font-extrabold text-xl-blue">Rp 80.000</span>
+                            <span class="text-gray-500 ml-1 text-sm">/bln</span>
+                        </div>
+                        <div class="bg-blue-50 rounded-lg p-4 mb-6 text-center">
+                            <span class="block text-sm text-gray-500 mb-1">Kuota Utama</span>
+                            <span class="block text-4xl font-black text-xl-blue">50<span class="text-xl">GB</span></span>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">Nelpon Sepuasnya ke XL/AXIS</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">1 Jam Telp ke Operator Lain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">100MB Instant Roaming</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6287893671984?text=Halo,%20saya%20tertarik%20daftar%20XL%20Prioritas%20Paket%20Prio%2080K" target="_blank" class="block w-full bg-gray-100 text-gray-800 text-center py-3 rounded-xl font-bold hover:bg-xl-blue hover:text-white transition-colors">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- Package 2 (Popular) -->
+                <div class="bg-white rounded-2xl shadow-2xl border-2 border-xl-yellow overflow-hidden transform hover:-translate-y-2 transition-all duration-300 relative">
+                    <div class="absolute top-0 right-0 bg-xl-yellow text-xl-blue text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider">
+                        Terpopuler
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Paket Prio 100K</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-3xl font-extrabold text-xl-blue">Rp 100.000</span>
+                            <span class="text-gray-500 ml-1 text-sm">/bln</span>
+                        </div>
+                        <div class="bg-yellow-50 rounded-lg p-4 mb-6 text-center">
+                            <span class="block text-sm text-gray-500 mb-1">Kuota Utama</span>
+                            <span class="block text-4xl font-black text-xl-yellow">80<span class="text-xl">GB</span></span>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">Nelpon Sepuasnya ke XL/AXIS</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">3 Jam Telp ke Operator Lain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">500MB Instant Roaming</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6287893671984?text=Halo,%20saya%20tertarik%20daftar%20XL%20Prioritas%20Paket%20Prio%20100K" target="_blank" class="block w-full bg-xl-blue text-white text-center py-3 rounded-xl font-bold hover:bg-xl-light-blue transition-colors shadow-lg">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transform hover:-translate-y-2 transition-all duration-300 relative group">
+                    <div class="h-2 w-full bg-gray-300 absolute top-0 group-hover:bg-xl-light-blue transition-colors"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Paket Prio 125K</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-3xl font-extrabold text-xl-blue">Rp 125.000</span>
+                            <span class="text-gray-500 ml-1 text-sm">/bln</span>
+                        </div>
+                        <div class="bg-blue-50 rounded-lg p-4 mb-6 text-center">
+                            <span class="block text-sm text-gray-500 mb-1">Kuota Utama</span>
+                            <span class="block text-4xl font-black text-xl-blue">125<span class="text-xl">GB</span></span>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">Nelpon Sepuasnya ke XL/AXIS</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">4 Jam Telp ke Operator Lain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">1GB Instant Roaming</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6287893671984?text=Halo,%20saya%20tertarik%20daftar%20XL%20Prioritas%20Paket%20Prio%20125K" target="_blank" class="block w-full bg-gray-100 text-gray-800 text-center py-3 rounded-xl font-bold hover:bg-xl-blue hover:text-white transition-colors">Pilih Paket</a>
+                    </div>
+                </div>
+
+                <!-- Package 4 -->
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transform hover:-translate-y-2 transition-all duration-300 relative group">
+                    <div class="h-2 w-full bg-gray-300 absolute top-0 group-hover:bg-xl-light-blue transition-colors"></div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Paket Prio 150K</h3>
+                        <div class="flex items-baseline mb-6">
+                            <span class="text-3xl font-extrabold text-xl-blue">Rp 150.000</span>
+                            <span class="text-gray-500 ml-1 text-sm">/bln</span>
+                        </div>
+                        <div class="bg-blue-50 rounded-lg p-4 mb-6 text-center">
+                            <span class="block text-sm text-gray-500 mb-1">Kuota Utama</span>
+                            <span class="block text-4xl font-black text-xl-blue">175<span class="text-xl">GB</span></span>
+                        </div>
+                        <ul class="space-y-3 mb-8 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">Nelpon Sepuasnya ke XL/AXIS</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">5 Jam Telp ke Operator Lain</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                                <span class="text-gray-600">2GB Instant Roaming</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6287893671984?text=Halo,%20saya%20tertarik%20daftar%20XL%20Prioritas%20Paket%20Prio%20150K" target="_blank" class="block w-full bg-gray-100 text-gray-800 text-center py-3 rounded-xl font-bold hover:bg-xl-blue hover:text-white transition-colors">Pilih Paket</a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-sm text-gray-400 mt-8">*Harga belum termasuk PPN 11%. Syarat dan ketentuan berlaku.</p>
+        </div>
+    </section>
+
+    <!-- XL Home Section -->
+    <section id="xlhome" class="py-20 bg-gray-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <div class="inline-flex items-center justify-center p-3 bg-xl-yellow rounded-xl mb-6 shadow-md">
+                        <i class="fas fa-home text-3xl text-xl-blue"></i>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-xl-blue mb-6">Internet Rumah Super Cepat dengan <span class="text-xl-yellow">XL Home</span></h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Ubah rumah Anda menjadi pusat hiburan keluarga. Nikmati streaming lancar, main game tanpa lag, dan aktivitas digital makin nyaman dengan pilihan koneksi <strong>fiber optic berkualitas</strong> maupun <strong>modem WiFi tanpa kabel</strong> yang berjalan di jaringan 5G XL yang stabil dan cepat.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-white shadow flex items-center justify-center text-xl-light-blue">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800">Fiber Optic 100%</h4>
+                                <p class="text-gray-600">Kecepatan stabil hingga 1 Gbps tanpa batasan kuota (FUP).</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-white shadow flex items-center justify-center text-xl-light-blue">
+                                <i class="fas fa-tv"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800">Termasuk XL Home Entertainment Box</h4>
+                                <p class="text-gray-600">Nikmati ribuan aplikasi Android TV, YouTube, dan layanan streaming populer.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-white shadow flex items-center justify-center text-xl-light-blue">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800">Gratis Biaya Instalasi</h4>
+                                <p class="text-gray-600">Pemasangan cepat oleh teknisi profesional tanpa biaya tambahan*.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-white shadow flex items-center justify-center text-xl-light-blue">
+                                <i class="fas fa-signal"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-800">Opsi Modem WiFi 5G (Tanpa Kabel)</h4>
+                                <p class="text-gray-600">Sangat praktis (Tinggal Colok/Plug & Play) dengan jaringan 5G XL, cocok untuk area yang mungkin belum terjangkau jaringan fiber kabel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 w-full">
+                    <div class="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 relative overflow-hidden">
+                        <!-- Background decoration -->
+                        <div class="absolute -right-10 -top-10 w-40 h-40 bg-xl-yellow opacity-10 rounded-full blur-2xl"></div>
+                        
+                        <h3 class="text-2xl font-bold text-center text-gray-800 mb-8">Paket Fiber Favorit</h3>
+                        
+                        <div class="space-y-4">
+                            <!-- Paket Fiber 1 -->
+                            <div class="flex items-center justify-between p-4 border border-gray-200 rounded-xl hover:border-xl-light-blue hover:shadow-md transition-all cursor-pointer group" onclick="window.open('https://wa.me/6287893671984?text=Halo,%20saya%20mau%20cek%20coverage%20XL%20Home%20paket%20Value%20Ngebut%20(250Mbps)', '_blank')">
+                                <div class="flex items-center gap-4">
+                                    <div class="bg-gray-100 p-3 rounded-lg group-hover:bg-xl-light-blue group-hover:text-white transition-colors">
+                                        <i class="fas fa-bolt text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-lg text-gray-800">Paket Value Ngebut <span class="text-sm font-normal text-gray-500">250 Mbps</span></h4>
+                                        <p class="text-sm text-gray-500">Hingga 10 perangkat</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <span class="block font-bold text-xl text-xl-blue">Rp 254.190</span>
+                                    <span class="text-xs text-xl-yellow font-bold group-hover:underline">Cek Area ></span>
+                                </div>
+                            </div>
+
+                            <!-- Paket Fiber 2 -->
+                            <div class="flex items-center justify-between p-4 border-2 border-xl-light-blue rounded-xl bg-blue-50 relative group cursor-pointer" onclick="window.open('https://wa.me/6287893671984?text=Halo,%20saya%20mau%20cek%20coverage%20XL%20Home%20paket%20Smart%20Lebih%20Ngebut%20(300Mbps)', '_blank')">
+                                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-xl-light-blue text-white text-xs font-bold px-3 py-1 rounded-full">Best Seller</div>
+                                <div class="flex items-center gap-4">
+                                    <div class="bg-xl-light-blue text-white p-3 rounded-lg">
+                                        <i class="fas fa-rocket text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-lg text-gray-800">Paket Smart Lebih Ngebut <span class="text-sm font-normal text-gray-500">300 Mbps</span></h4>
+                                        <p class="text-sm text-gray-500">Hingga 12+ perangkat</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <span class="block font-bold text-xl text-xl-blue">Rp 265.290</span>
+                                    <span class="text-xs text-xl-light-blue font-bold group-hover:underline">Cek Area ></span>
+                                </div>
+                            </div>
+
+                            <!-- Paket Fiber 3 -->
+                            <div class="flex items-center justify-between p-4 border border-gray-200 rounded-xl hover:border-xl-light-blue hover:shadow-md transition-all cursor-pointer group" onclick="window.open('https://wa.me/6287893671984?text=Halo,%20saya%20mau%20cek%20coverage%20XL%20Home%20paket%20Family%20(400Mbps)', '_blank')">
+                                <div class="flex items-center gap-4">
+                                    <div class="bg-gray-100 p-3 rounded-lg group-hover:bg-xl-light-blue group-hover:text-white transition-colors">
+                                        <i class="fas fa-space-shuttle text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-lg text-gray-800">Paket Family <span class="text-sm font-normal text-gray-500">400 Mbps</span></h4>
+                                        <p class="text-sm text-gray-500">Hingga 14+ perangkat</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <span class="block font-bold text-xl text-xl-blue">Rp 331.890</span>
+                                    <span class="text-xs text-xl-yellow font-bold group-hover:underline">Cek Area ></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 text-center">
+                            <a href="#kontak" class="inline-block bg-xl-blue text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-xl-light-blue transition-colors w-full sm:w-auto">Cek Ketersediaan Jaringan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section id="keunggulan" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-xl-blue mb-4">Mengapa Daftar Melalui Kami?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">Proses lebih mudah, cepat, dan transparan. Kami adalah sales resmi penjualan kartu XL smart prioritas dan pemasangan wifi xl home di Balikpapan.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="text-center p-6">
+                    <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 text-3xl text-xl-light-blue">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Proses Cepat</h3>
+                    <p class="text-gray-600">Pendaftaran diproses di hari yang sama. Tidak perlu repot datang ke XL Center.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="text-center p-6">
+                    <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 text-3xl text-xl-light-blue">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Daftar dari Rumah</h3>
+                    <p class="text-gray-600">Cukup siapkan KTP dan data diri. Tim kami yang akan memproses semuanya secara online.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="text-center p-6">
+                    <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 text-3xl text-xl-light-blue">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Bantuan Penuh</h3>
+                    <p class="text-gray-600">Konsultasi gratis memilih paket yang tepat. Kami pandu dari awal hingga aktif.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="text-center p-6">
+                    <div class="w-20 h-20 mx-auto bg-blue-50 rounded-full flex items-center justify-center mb-6 text-3xl text-xl-light-blue">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Resmi & Aman</h3>
+                    <p class="text-gray-600">Data Anda dijamin aman. Pendaftaran langsung masuk ke sistem resmi XL Axiata.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA & Contact Section -->
+    <section id="kontak" class="py-20 hero-bg relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'#ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden max-w-5xl mx-auto flex flex-col md:flex-row">
+                <!-- Left side Info -->
+                <div class="bg-xl-light-blue p-10 md:w-2/5 text-white flex flex-col justify-center">
+                    <h3 class="text-3xl font-bold mb-4">Siap Berlangganan?</h3>
+                    <p class="mb-8 text-blue-100">Konsultasikan kebutuhan internet Anda sekarang. Tim kami akan segera merespon.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">WhatsApp Fast Response</p>
+                                <a href="https://wa.me/6287893671984" target="_blank" class="text-lg font-bold hover:text-xl-yellow transition-colors">0878-9367-1984</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-blue-200">Jam Operasional</p>
+                                <p class="text-lg font-bold">Setiap Hari, 08:00 - 20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side Form -->
+                <div class="p-10 md:w-3/5">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Formulir Minat Cepat</h3>
+                    
+                    <!-- We use a simple JS function to format message and open WhatsApp -->
+                    <form id="interestForm" class="space-y-4" onsubmit="event.preventDefault(); sendToWhatsApp();">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+                            <input type="text" id="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-xl-light-blue focus:border-xl-light-blue outline-none transition-all" placeholder="Masukkan nama Anda">
+                        </div>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Nomor HP/WA</label>
+                                <input type="tel" id="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-xl-light-blue focus:border-xl-light-blue outline-none transition-all" placeholder="08xx...">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Layanan yang diminati</label>
+                                <select id="service" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-xl-light-blue focus:border-xl-light-blue outline-none transition-all bg-white">
+                                    <option value="XL Prioritas">Kartu XL Prioritas</option>
+                                    <option value="XL Home WiFi">XL Home WiFi Fiber</option>
+                                    <option value="Keduanya">Keduanya</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Kota/Kecamatan (Khusus untuk cek area XL Home)</label>
+                            <input type="text" id="location" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-xl-light-blue focus:border-xl-light-blue outline-none transition-all" placeholder="Contoh: Kebayoran Baru, Jakarta Selatan">
+                        </div>
+
+                        <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-colors shadow-md mt-4 text-lg">
+                            <i class="fab fa-whatsapp text-xl"></i> Kirim Pesan ke WhatsApp
+                        </button>
+                        <p class="text-xs text-center text-gray-500 mt-2">Anda akan dialihkan ke WhatsApp untuk melanjutkan percakapan.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-8 bg-xl-blue rounded flex items-center justify-center font-bold text-xl-yellow text-sm">XL</div>
+                        <span class="font-bold text-white text-lg">Mitra Pendaftaran</span>
+                    </div>
+                    <p class="text-sm mb-4">Website ini dikelola oleh Mitra Resmi Penjualan XL Axiata untuk memudahkan calon pelanggan mendaftar layanan XL Prioritas dan XL Home.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Tautan Cepat</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#prioritas" class="hover:text-white transition-colors">Paket XL Prioritas</a></li>
+                        <li><a href="#xlhome" class="hover:text-white transition-colors">Paket XL Home WiFi</a></li>
+                        <li><a href="#keunggulan" class="hover:text-white transition-colors">Keunggulan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Peringatan Penipuan</h4>
+                    <p class="text-sm mb-4">Kami tidak pernah meminta kode OTP atau mentransfer sejumlah uang di luar rekening resmi perusahaan. Berhati-hatilah terhadap penipuan.</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+                <p>&copy; 2026 Mitra Resmi Pendaftaran XL. Bukan website resmi XL Axiata Tbk.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed WhatsApp Button (Floating) -->
+    <a href="https://wa.me/6287893671984" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-green-600 transition-transform transform hover:scale-110 z-50 animate-bounce" style="animation-duration: 2s;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 10) {
+                navbar.classList.add('shadow-md');
+            } else {
+                navbar.classList.remove('shadow-md');
+            }
+        });
+
+        // Mobile menu toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // WhatsApp Form Submission Logic
+        function sendToWhatsApp() {
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const location = document.getElementById('location').value;
+            
+            // Ganti nomor ini dengan nomor WhatsApp Anda
+            const adminPhone = "6287893671984"; 
+            
+            let message = `Halo, saya tertarik mendaftar layanan XL.%0A%0A`;
+            message += `*Nama:* ${name}%0A`;
+            message += `*No HP:* ${phone}%0A`;
+            message += `*Minat Layanan:* ${service}%0A`;
+            
+            if(location) {
+                message += `*Lokasi:* ${location}%0A`;
+            }
+            
+            message += `%0AMohon info lebih lanjut, terima kasih.`;
+            
+            const whatsappUrl = `https://wa.me/${adminPhone}?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
